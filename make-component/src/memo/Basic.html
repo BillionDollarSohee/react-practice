@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>basic</title>
+  </head>
+  <body>
+    <script>
+      /*
+        my-react-app/
+                │
+                ├── node_modules/            # 프로젝트의 모든 npm 패키지들이 설치되는 폴더
+                │
+                ├── public/                  # 정적 파일들이 위치하는 폴더
+                │   ├── index.html           # React 애플리케이션의 진입점 HTML 파일   (자바 main() 함수 )
+                │   └── favicon.ico          # 브라우저 탭에 표시될 아이콘
+                │
+                ├── src/                     # React 컴포넌트와 소스 파일들이 위치하는 폴더
+                │   ├── App.js               # 메인 애플리케이션 컴포넌트  ******
+                │   ├── App.css              # App 컴포넌트의 스타일 시트  ******
+                │   ├── index.js             # ReactDOM.render를 통해 App을 렌더링하는 파일
+                │   └── index.css            # 전역 스타일 시트
+                │
+                ├── package.json             # 프로젝트 메타데이터 및 npm 스크립트/의존성 정보
+                └── README.md                # 프로젝트에 대한 설명 파일
+
+            vscode 개발 (확장 프로그램) : 코드 품질 및 생산성
+            ESLint: 코드 품질을 유지하고 일관된 코딩 스타일을 적용하기 위해 ESLint 플러그인을 설치합니다.
+            Prettier: 코드 포맷터로, 코드를 일관된 스타일로 자동 정리해줍니다. Prettier - Code formatter 플러그인을 설치합니다.
+            
+            하나만 .. 일단 설치
+            React.js code snippets: React 코드 스니펫을 제공하여 빠르게 코드 작성할 수 있습니다.
+        
+            rsc 엔터 : 화살표 함수 방식으로 컴포넌트 생성
+            rsf 엔터 : 일반 함수로 컴포넌트 생성
+
+            목적 )
+            1. component 폴더 (재사용성이 높은 : Card.js, Card.jsx, List.js, Button.js, Button.jsx ...)
+            2. routes 폴더 (경로/링크 단위 컴포넌트간의 이동 경로 제어 : Home.js, About.js, Contact.js ...)
+            3. 컴포넌트 장점 : 재사용성, 유지보수성, 가독성 향상
+            4. 컴포넌트 단점 : 여러개의 컴포넌트라서 데이터 관리가 어려울 수 있음 (상태 관리 라이브러리 사용 권장)
+            5. assets 폴더 (이미지, 폰트, 스타일시트 등 정적 자원)
+            6. utils 폴더 (유틸리티 함수 및 헬퍼 함수)
+            7. services 폴더 (API 호출 및 데이터 처리 관련 코드)
+
+            React 실행순서 요약 정리)
+            1. npm start
+            2. 브라우져는 public/index.html 브라우져 로드 (id=root 컨테이너)
+            3. ReactDOM src/index.js (진입점,시작점) ... App.js 컴포넌트를 root Dom  랜더링 (적재)
+            3.1 App.js 전체 App에 UI 정의하고 하위 컴포넌트 포함한다
+            4. 컴포넌트들이 랜더링 되고 UI 구성한다 (App.js 하위 컴포넌트)
+            5. 화면으로 .....^^
+        */
+    </script>
+  </body>
+</html>
