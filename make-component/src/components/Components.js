@@ -1,5 +1,5 @@
 
-function Component(props) {
+function Components(props) {
     return (
         <div>
             <h3>my first Component</h3>
@@ -7,4 +7,4 @@ function Component(props) {
     ); 
 }
 
-export default Component;
+export default Components;
