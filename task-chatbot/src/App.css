@@ -1,0 +1,101 @@
+body {
+  background: #ebe1d4;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.shop-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 20px 80px 20px;
+}
+
+.shop-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #5a4632;
+}
+
+.shop-sub {
+  font-size: 16px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  color: #7a6a57;
+}
+
+/* 탭 스타일 */
+.item-tab-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.item-tab {
+  background: #f6f0e3;
+  border: 1px solid #d9c8a8;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #5a4632;
+  font-weight: 600;
+  transition: 0.15s;
+}
+
+.item-tab:hover {
+  background: #f1d9b8;
+  transform: translateY(-2px);
+}
+
+/* 채팅창 */
+.chat-container {
+  background: #fff9ed;
+  border: 1px solid #d9c8a8;
+  padding: 20px;
+  border-radius: 15px;
+  height: 350px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.chat-bubble {
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+.chat-bubble.user {
+  background: #cfe0ff;
+  margin-left: auto;
+}
+
+.chat-bubble.ai {
+  background: #f6e4c4;
+}
+
+/* 입력창 */
+.input-panel {
+  display: flex;
+  gap: 10px;
+}
+
+.input-panel input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d9c8a8;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.input-panel button {
+  background: #c4a069;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}

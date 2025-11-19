@@ -14,3 +14,9 @@ export async function getRoomMessages(senderId, receiverId){
   const r = await fetch(`${BASE}/room?senderId=${senderId}&receiverId=${receiverId}`);
   return r.json();
 }
+
+export async function readMessage(messageId){
+  return fetch(`${BASE}/read/${messageId}`, {
+    method:"POST"
+  });
+}

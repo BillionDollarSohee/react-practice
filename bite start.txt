@@ -4,6 +4,14 @@
 npm create vite@latest 프로젝트명
 cd my-app → 프로젝트 폴더로 이동
 npm install → 필요한 패키지 설치
-npm run dev → 개발 서버 실행
 
 npm create vite@latest 프로젝트명 --template react-ts
+
+npm install react-router-dom 라우터 설치
+npm install zustand          상태관리 라이브러리 설치
+npm install axios            비동기 설치
+npm install bootstrap        부트스트랩 설치
+
+
+npm run dev → 개발 서버 실행
+npm run dev -- --host  ip로 접근 가능하게 실행
